@@ -1,0 +1,40 @@
+html { -webkit-font-smoothing: antialiased; }
+body.login { background-image: -webkit-linear-gradient(135deg,#20205a,#171744); }
+
+body.login div#login { padding: 0; color: #FFF; width: 460px; height: 240px; position: absolute; left: 50%; top: 50%; margin-left: -230px; margin-top: -120px; }
+
+body.login div#login #foto,
+body.login div#login #info { float: left; height: 200px; }
+
+body.login div#login #foto { width: 200px; margin-right: 20px; background-color: #171744; position: relative; }
+body.login div#login #info { width: 240px; }
+
+
+body.login div#login form /*form#loginform*/ { margin: 0; padding: 0; background: none; -webkit-box-shadow: none; box-shadow: none; }
+body.login div#login form /*form#loginform*/ p label { color: #FFF; font-size: 13px; }
+body.login div#login form /*form#loginform*/ input { border: 0px !important; outline: none; font-size: 13px; }
+body.login div#login form /*form#loginform*/ input#user_login,
+body.login div#login form#loginform input#user_pass { margin: 0; margin-bottom: 10px; margin-top: 0; color: #212121; padding: 8px 8px; }
+body.login div#login form#loginform input#user_pass { width: 165px; margin-right: 5px !important; }
+
+body.login div#login form#loginform p.forgetmenot { float: none; }
+body.login div#login form#loginform p.submit { display: inline; }
+body.login div#login form /*form#loginform*/ p.submit input#wp-submit { margin: 0; background-color: #2672EC; color: #fff; padding: 8px 16px; font-weight: 600; }
+body.login div#login form /*form#loginform*/ p.submit input#wp-submit:hover { background-color: #5A94F1; cursor: pointer; }
+
+body.login div#login p#nav { padding: 0; margin: 0; }
+body.login div#login p#nav a { color: rgba(255, 255, 255, 0.8); font-size: 12px; text-transform: lowercase; margin-top: 20px; display: block; border-top: 1px dotted rgba(255, 255, 255, 0.1); padding-top: 5px; text-align: right; }
+body.login div#login p#nav a:hover { color: #5A94F1; }
+
+body.login div#login p#backtoblog { padding: 0; margin: 0; margin-bottom: 20px; }
+body.login div#login p#backtoblog a { color: #FFF; font-size: 12px; }
+body.login div#login p#backtoblog a:hover { color: #5A94F1; }
+
+body.login div#login #login_error,
+body.login div#login .message { box-sizing: border-box; background-color: #171744; font-size: 13px; color: #CCC; display: inline-block; width: 100%; }
+body.login div#login .message { margin-bottom: 20px; }
+
+body.login div#login #login_error a { display: none; }
+
+body.login-action-lostpassword #login_error { margin-bottom: 20px; }
+body.login-action-login #login_error { margin-top: 20px; }
