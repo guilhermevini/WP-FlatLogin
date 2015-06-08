@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: WP Flat Login
-* Plugin URI:
+* Plugin URI: https://github.com/guilhermevini/WP-FlatLogin
 * Description: A simple and beautify login page with flat design style.
 * Version: 1.0.0
 * Author: Guilherme Vinicius
